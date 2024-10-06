@@ -4,7 +4,7 @@ from airflow.utils.dates import days_ago
 
 # Define the DAG and its arguments
 dag = DAG(
-    'simple_dag',
+    'simple_dag2',
     description='A simple example DAG',
     schedule_interval='@daily',
     start_date=days_ago(1),
